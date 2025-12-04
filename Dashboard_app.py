@@ -11,7 +11,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-  df = pd.read_csv("dashboard_event_study_data.csv", parse_dates = ["event_date"])
+  df = pd.read_csv("dashboard_event_study_sample.csv", parse_dates = ["event_date"])
   sentiment_cols = [
       "mgmtremarks_sentiment_score",
       "qa_sentiment_score",
@@ -172,3 +172,4 @@ else:
         .interactive()
     )
     st.altair_chart(line_chart, use_container_width=True)
+
