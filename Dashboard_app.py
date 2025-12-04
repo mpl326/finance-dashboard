@@ -24,7 +24,7 @@ df, sentiment_cols, car_cols = load_data()
 st.title("Earnings Call Sentiment & Event Study Dashboard")
 
 st.markdown("""
-This dashboard lets you explore how earnings call sentimentrelates to stock performance
+This dashboard lets you explore how earnings call sentiment relates to stock performance
 using abnormal returns from your event study.
 """)
 
@@ -172,4 +172,5 @@ else:
         .interactive()
     )
     st.altair_chart(line_chart, use_container_width=True)
+
 
