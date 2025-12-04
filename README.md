@@ -6,7 +6,7 @@ ________________________________________________________________________________
 Live Dashboard
 
 Click below to open the interactive dashboard:
-https://finance-dashboard-hcvptvejepwarskxslqw5s.streamlit.app/
+https://mcwinsey-earnings-sentiment.streamlit.app/
 ___________________________________________________________________________________________________________________________________________________________________
 Repository Structure
 finance-dashboard/
